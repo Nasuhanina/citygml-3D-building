@@ -1,0 +1,27 @@
+html,
+body {
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+#cesiumContainer {
+  height: 100%;
+}
+
+#toolbar {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+  background: rgb(240,248,255);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+select {
+  font-size: 16px;
+  padding: 5px;
+  margin: 5px 0;
+  width: 200px;
+}

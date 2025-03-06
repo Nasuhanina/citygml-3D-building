@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cesium Japan Cities</title>
+  <script src="https://cesium.com/downloads/cesiumjs/releases/1.120/Build/Cesium/Cesium.js"></script>
+  <link href="https://cesium.com/downloads/cesiumjs/releases/1.120/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div id="cesiumContainer"></div>
+  <div id="toolbar">
+    <label for="citySelect">Select a city:</label>
+    <select id="citySelect">
+      <option value="hiroshima">Hiroshima</option>
+      <option value="chiyoda">Chiyoda | 千代田区</option>
+      <option value="tokyoTower">Tokyo Tower</option>
+      <option value="kyotoNijoCastle">Kyoto - Nijo Castle</option>
+      <option value="hakone">Hakone</option>
+      <option value="mtFujiGotemba">Mt. Fuji - Gotemba</option>
+      <option value="sapporo">Sapporo</option>
+      <option value="kaga">Kaga</option>
+      <option value="iwaki">Onahama Iwaki</option>
+      
+    </select>
+  </div>
+  <script type = "module" src="japan.js"></script>
+</body>
+</html>
